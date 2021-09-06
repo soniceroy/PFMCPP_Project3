@@ -57,59 +57,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) Cafe
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of baristas
+    2) number of pour over stations
+    3) number of croissants
+    4) time it takes to pull a shot
+    5) amount of cream
 3 things it can do:
-    1)
-    2)
-    3)
+    1) make a pour over
+    2) give a croissant
+    3) make a latte
  */
 
 /*
-Thing 2)
+Thing 2) Motorcycle
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of tire pressure
+    2) amount of gasoline
+    3) radio volume
+    4) radio station
+    5) amount of engine oil
 3 things it can do:
-    1)
-    2)
-    3)
+    1) accelerate
+    2) break
+    3) pop a wheelie
  */
 
 /*
-Thing 3)
+Thing 3) Oven
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) temperature
+    2) height of rack
+    3) oven setting (broil, bake)
+    4) timer setting (on, off)
+    5) timer duration
 3 things it can do:
-    1)
-    2)
-    3)
+    1) change rack height
+    2) turn on/off oven
+    3) turn on/off timer
  */
 
 /*
-Thing 4)
+Thing 4) Ship
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) rudder angle
+    2) sail setting (up/down)
+    3) sail angle
+    4) anchor setting (up/down)
+    5) engine speed
 3 things it can do:
-    1)
-    2)
-    3)
+    1) turn rudder
+    2) turn sail
+    3) raise/lower anchor
  */
 
 
