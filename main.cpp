@@ -36,51 +36,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) horn button
+        4) the wheel itself
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) sound the horn.
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speed gauge
+        2) rpm gauge
+        3) clock
+        4) temperature
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) get speed.
+        2) get rpm.
+        3) get time.
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) driver air condition controls
+        2) passenger air condition controls
+        3) rear defrost button
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) turn up/down the temperature for the driver.
+        2) turn up/down the temperature for the passenger.
+        3) turn on the rear defrost.
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) radio station/ track selection
+        2) search button
+        3) pause/play button
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) pick a track or radio station.
+        2) search for a track or radio station.
+        3) pause/play selected track or radio station.
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) up/down seat button
+        2) up/down back rest button
+        3) seat forward/back putton
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) raise/lower the seat
+        2) move the seat forward and back
 */
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
