@@ -65,30 +65,13 @@ Part1 will be broken up into 5 separate steps
 */
 
 /*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-
-
-
-/*
 Thing 1) Cafe
 5 properties:
-    1) number of baristas
-    2) number of pour over stations
-    3) number of croissants
-    4) time it takes to pull a shot
-    5) amount of cream
+    1) number of baristas (int)
+    2) number of pour over stations (int)
+    3) number of croissants (int)
+    4) time it takes to pull a shot (int)
+    5) amount of cream (float)
 3 things it can do:
     1) make a pour over
     2) give a croissant
@@ -98,11 +81,11 @@ Thing 1) Cafe
 /*
 Thing 2) Motorcycle
 5 properties:
-    1) amount of tire pressure
-    2) amount of gasoline
-    3) radio volume
-    4) radio station
-    5) amount of engine oil
+    1) amount of tire pressure (float)
+    2) amount of gasoline (float)
+    3) radio volume (float)
+    4) radio station (float)
+    5) amount of engine oil (float)
 3 things it can do:
     1) accelerate
     2) break
@@ -112,11 +95,11 @@ Thing 2) Motorcycle
 /*
 Thing 3) Oven
 5 properties:
-    1) temperature
-    2) height of rack
-    3) oven setting (broil, bake)
-    4) timer setting (on, off)
-    5) timer duration
+    1) temperature (float)
+    2) height of rack (int)
+    3) oven setting (broil, bake) (int)
+    4) timer setting (on, off) (int)
+    5) timer duration (int)
 3 things it can do:
     1) change rack height
     2) turn on/off oven
@@ -126,18 +109,30 @@ Thing 3) Oven
 /*
 Thing 4) Ship
 5 properties:
-    1) rudder angle
-    2) sail setting (up/down)
-    3) sail angle
-    4) anchor setting (up/down)
-    5) engine speed
+    1) rudder angle (float)
+    2) sail setting (up/down) (int)
+    3) sail angle (float)
+    4) anchor setting (up/down) (int)
+    5) engine speed (float)
 3 things it can do:
     1) turn rudder
     2) turn sail
     3) raise/lower anchor
  */
 
-
+/*
+Thing 10) Restaurant
+5 properties:
+    1) Buffet
+    2) Waiting Staff
+    3) Tables
+    4) Kitchen Staff
+    5) Front of House
+3 things it can do:
+    1) seat parties
+    2) serve food
+    3) cook food
+ */
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
