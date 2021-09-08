@@ -81,79 +81,6 @@ Part1 will be broken up into 5 separate steps
 */
 
 /*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-
-
-
-/*
 Thing 1) Cafe
 5 properties:
     1) number of baristas (int)
@@ -209,6 +136,75 @@ Thing 4) Ship
     3) raise/lower anchor
  */
 
+/*
+Thing 5) Buffet
+5 properties:
+    1) amount of cole slaw (double)
+    2) slices of pizza (int)
+    3) pieces of ribs (int)
+    4) number of plates (int)
+    5) amount of grime (float)
+3 things it can do:
+    1) stock food (slaw, pizza, or ribs)
+    2) stock plates 
+    3) repell customers if it gets to grimey
+ */
+
+/*
+Thing 6) Waiting Staff
+5 properties:
+    1) amount of staff (int)
+    2) amount of pep aka flare (float)
+    3) amount of soda syrup (float)
+    4) amount of co2 for the soda (float) 
+    5) number of clean cups
+3 things it can do:
+    1) take a break (stocks up on pep/flare)
+    2) serve soda
+    3) stock soda and co2
+ */
+
+/*
+Thing 7) Tables
+5 properties:
+    1) number of chairs (int)
+    2) number of full drinks (int)
+    3) number of dirty plates
+    4) drink capacity e.g. # of empty drinks derived from drinkCapacity - fullDrinks (int)
+    5) number of napkins
+3 things it can do:
+    1) seat people
+    2) replenish napkins (via unmentioned bus boys)
+    3) apply repellence to customers if not kept clean
+ */
+
+/*
+Thing 8) Cleaning Staff
+5 properties:
+    1) number of dirty plates (int)
+    2) number of dirty cups (int)
+    3) number of spent napkins (int)
+    4) number of staff (int)
+    5) amount of rib sauce (float)
+3 things it can do:
+    1) clean plates
+    2) clean cups
+    3) dispose of napkins
+ */
+
+/*
+Thing 9) Front of House
+5 properties:
+    1) incoming customers (int)
+    2) cash in register (float)
+    3) number of seating staff (int)
+    4) front of house grime (float)
+    5) amount of bubble gum in bubble gum machine (int)
+3 things it can do:
+    1) serve bubble gum
+    2) seat people
+    3) repell people if front of house grime is too high
+ */
 /*
 Thing 10) Restaurant
 5 properties:
