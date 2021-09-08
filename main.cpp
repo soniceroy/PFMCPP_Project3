@@ -139,13 +139,14 @@ Thing 4) Ship
 /*
 Thing 5) Buffet
 5 properties:
-    1) amount of cole slaw (double)
+    1) current soup choice (std::string)
     2) slices of pizza (int)
     3) pieces of ribs (int)
     4) number of plates (int)
     5) amount of grime (float)
+
 3 things it can do:
-    1) stock food (slaw, pizza, or ribs)
+    1) stock food (pizza or ribs)
     2) stock plates 
     3) repell customers if it gets to grimey
  */
@@ -168,7 +169,7 @@ Thing 6) Waiting Staff
 Thing 7) Tables
 5 properties:
     1) number of chairs (int)
-    2) number of full drinks (int)
+    2) percentage of full drinks (int)
     3) number of dirty plates
     4) drink capacity e.g. # of empty drinks derived from drinkCapacity - fullDrinks (int)
     5) number of napkins
@@ -196,7 +197,7 @@ Thing 8) Cleaning Staff
 Thing 9) Front of House
 5 properties:
     1) incoming customers (int)
-    2) cash in register (float)
+    2) current jukebox song (std::string)
     3) number of seating staff (int)
     4) front of house grime (float)
     5) amount of bubble gum in bubble gum machine (int)
