@@ -149,6 +149,25 @@ Thing 1) Cafe
     2) give a croissant
     3) make a latte
  */
+struct Cafe {
+    // number of baristas (int)
+    int baristas = 1;
+    // number of pour over stations (int)
+    int pourOverStations = 1;
+    // number of croissants (int)
+    int croissants = 1;
+    // time it takes to pull a shot (int)
+    int shotTime = 1;
+    // amount of cream (float)
+    float cream = 1.06f;
+    
+    // make a pour over
+    int makePourOver(int coffeeType);
+    // give a croissant
+    int giveCroissant();
+    // make a latte
+    int makeLatte(int shotNum, float cupsOfCream);
+};
 
 /*
 Thing 2) Motorcycle
@@ -163,13 +182,31 @@ Thing 2) Motorcycle
     2) break
     3) pop a wheelie
  */
+struct Motorcycle {
+    // amount of tire pressure (float)
+    float tirePressure = 50.0f;
+    // amount of gasoline (float)
+    float gas = 0.0f;
+    // radio volume (float)
+    float radioVolume = 0.0f;
+    // radio station (float)
+    float station = 0.0f;
+    // amount of engine oil (float)
+    float oil = 2.0f;
 
+    // accelerate
+    float accelerate(float amount);
+    // break
+    float useBreak(float amount);
+    // pop a wheelie
+    float popWheelie(int duration);
+};
 /*
 Thing 3) Oven
 5 properties:
     1) temperature (float)
     2) height of rack (int)
-    3) oven setting (broil, bake) (int)
+    3) oven setting (broil, bake) (std::string)
     4) timer setting (on, off) (int)
     5) timer duration (int)
 3 things it can do:
@@ -177,7 +214,25 @@ Thing 3) Oven
     2) turn on/off oven
     3) turn on/off timer
  */
+struct Oven {
+    // temperature (float)
+    float temperature = 70.0;
+    // height of rack (int)
+    float rackHeight = 2;
+    // oven setting (broil, bake) (std::string)
+    std::string setting = "bake";
+    // timer setting (on, off) (int)
+    int timer = 0;
+    // timer duration (int)
+    int timerDuration = 0;
 
+    // change rack height
+    int changeRackHeight(int offset);
+    // turn on/off oven
+    int toggleOven();
+    // turn on/off timer
+    int toggleTimer();
+};
 /*
 Thing 4) Ship
 5 properties:
